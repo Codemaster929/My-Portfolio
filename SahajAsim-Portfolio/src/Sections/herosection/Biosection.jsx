@@ -8,7 +8,7 @@ const Biosection = () => {
     <div className='  w-2/3 h-80 p-3 flex gap-10 flex-col' >
       <h1 className='text-3xl font-bold '>Hi,there &#128075;</h1>
       <p className='text-[18px] font-semibold'> Sahaj here ,Turning ideas into reality through clean, responsive web experiences.Proficient in React, JavaScript, HTML, CSS, and Tailwind. Always learning, always building. </p>
-      <div className='flex justify-between px-5 mt-12'>
+      <div className='flex justify-between px-5 mt-10'>
        <button className='flex gap-2 border-3 rounded py-1 px-2 font-bold cursor-pointer  active:scale-95  hover:scale-105 transition-transform' >
         Resume <FileDown strokeWidth={1.9} />
        </button>
