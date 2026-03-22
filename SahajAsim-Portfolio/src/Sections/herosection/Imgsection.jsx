@@ -33,7 +33,7 @@ function Imgsection() {
           <img
             src={photo}
             alt={`Photo ${index + 1}`}
-            className="w-70 h-80 m-auto object-cover rounded-2xl border-2 border-gray-800 "
+            className="w-70 h-80 m-auto object-cover rounded-2xl border-2 border-gray-800 shadow-gray-400-md "
           />
         </SwiperSlide>
       ))}
