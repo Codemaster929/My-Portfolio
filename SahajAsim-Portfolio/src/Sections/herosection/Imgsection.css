@@ -28,9 +28,9 @@
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
-  background: #b6b6b6;
+  background: rgba(31, 41, 55, 0.5);
   position: relative;
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(31, 41, 55, 0.5);
 }
 
 .photo-card img {

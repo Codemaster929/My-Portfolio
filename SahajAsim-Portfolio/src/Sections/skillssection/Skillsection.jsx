@@ -111,12 +111,12 @@ const cardData=[{
 const Skillsection = () => {
 
     return (
-    <div className='mt-15 bg-black/5 backdrop-blur-xs border-transparent shadow-[0_0_15px_rgba(255,255,255,0.6)] rounded-xl  text-white h-90 w-2/3 m-auto p-5  gap-2'>
+    <div className='mt-15 bg-black/5 backdrop-blur-xs border-transparent shadow-[8px_8px_30px_rgba(0,0,0,0.8),0_0_15px_rgba(255,255,255,0.3)] rounded-xl  text-white h-90 w-2/3 m-auto p-5  gap-2'>
 <h1 className='font-bold text-3xl mb-10'>Tools & Skills</h1>
-<div className='flex flex-wrap gap-5'>
+<div className='flex flex-wrap gap-5' >
 {cardgrid}
 
-</div>
+</div> 
 
     </div>
   )

@@ -6,6 +6,7 @@ import Skillsection from './Sections/skillssection/Skillsection'
 import Projectsection from './Sections/Projectsection/Projectsection'
 import Contactsection from './Sections/Contactsection/Contactsection'
 import Footer from './Sections/footer/Footer'
+import ScrollToTop from './components/ ScrollToTop'
 const App = () => {
   return (
          <div className="app">
@@ -13,12 +14,13 @@ const App = () => {
       <SpaceBackground />
 
       {/* Your content on top */}
-      <div className='relative z-10 h-full w-full ' >
+      <div className='relative z-10 h-full w-full scroll-smooth' >
        <Navbar/>
        <HeroSection/>
        <Skillsection/>
        <Projectsection/>
        <Contactsection/>
+        <ScrollToTop/>
        <Footer/>
         {/* ... your sections */}
       </div>
