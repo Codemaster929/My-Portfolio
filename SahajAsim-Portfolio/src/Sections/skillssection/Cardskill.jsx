@@ -11,8 +11,8 @@ const Cardskill = (props) => {
 onMouseLeave={()=>{
 setishovered(false)
 }}
-className='bg-gray-900 w-20 flex flex-col items-center justify-between p-2 rounded-2xl'>
-<img className='h-10 w-10 hover:scale-105' src={ishovered? props.hoverIcon:props.normalIcon}alt="" />
+className='bg-slate-950 w-20 flex flex-col items-center justify-center gap-1 p-2 rounded-2xl'>
+<img className='h-10 w-10 hover:scale-105 transition-transform' src={ishovered? props.hoverIcon:props.normalIcon}alt="" />
 <p className='font-semibold'>{props.name}</p>
     </div>
   )

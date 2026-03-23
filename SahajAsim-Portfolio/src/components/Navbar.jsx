@@ -7,7 +7,7 @@ const Nabar = () => {
       <div className='flex gap-5 items-center'> 
        <a href="/">Home</a>
        <a href="/projects">Projects</a>
-       <a href="/contact">Contacts</a>
+       <a href="/contact">Contact Me</a>
       </div>
     </div>
   )
