@@ -25,7 +25,7 @@ const Biosection = () => {
        </button>
   <div className='flex gap-5 items-center cursor-pointer'>
     <a href="https://www.linkedin.com/in/sahaj-asim-72567a294/?skipRedirect=true" target='_blank'>
-    <img className='h-5 w-5 active:scale-95 hover:scale-125 transition-transform' src={linkedin} lin />
+    <img className='h-5 w-5 active:scale-95  hover:scale-125 transition-transform' src={linkedin} lin />
     </a>
     <a href="https://github.com/Codemaster929?tab=overview&from=2026-03-01&to=2026-03-22" target='_blank'>
     <img className='h-5 w-5 active:scale-95 hover:scale-125 transition-transform' src={github} alt="" />

@@ -5,7 +5,7 @@ const Cardskill = (props) => {
       const [ishovered, setishovered] = useState(false)
   return (
    
-      <div onMouseEnter={()=>{
+      <div  onMouseEnter={()=>{
     setishovered(true)
 }} 
 onMouseLeave={()=>{

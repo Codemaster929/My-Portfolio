@@ -101,7 +101,6 @@ const cardData=[{
   cardData.map((card) => {
     cardgrid.push(
       <Cardskill 
-       
         normalIcon={card.normalIcon}
         hoverIcon={card.hoverIcon}
         name={card.name}
