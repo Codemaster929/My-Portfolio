@@ -7,6 +7,7 @@ import Projectsection from './Sections/Projectsection/Projectsection'
 import Contactsection from './Sections/Contactsection/Contactsection'
 import Footer from './Sections/footer/Footer'
 import ScrollToTop from './components/ ScrollToTop'
+import Chatbotsection from './Sections/ChatbotSection/Chatbotsection'
 const App = () => {
   return (
          <div className="app">
@@ -20,6 +21,7 @@ const App = () => {
        <Skillsection/>
        <Projectsection/>
        <Contactsection/>
+        <Chatbotsection/>
         <ScrollToTop/>
        <Footer/>
         {/* ... your sections */}

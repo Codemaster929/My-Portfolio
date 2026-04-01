@@ -7,7 +7,6 @@ const Projectsection = () => {
 <h1   className='font-bold text-3xl mb-10'>Projects</h1>
 <div className='flex flex-wrap gap-10  pl-20 '>
 <ProjectCards/>
-<ProjectCards/>
 
 
 </div>
