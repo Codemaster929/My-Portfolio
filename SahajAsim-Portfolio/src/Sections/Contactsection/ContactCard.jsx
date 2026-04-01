@@ -2,6 +2,7 @@ import React from 'react'
 import messageicon from '../Contactsection/message.svg'
 import { useState } from 'react';
 import Swal from 'sweetalert2'
+
 const ContactCard = () => {
 
      const [result, setResult] = useState("");
@@ -11,7 +12,7 @@ const ContactCard = () => {
   setResult("Sending....");
   
   const formData = new FormData(event.target);
-  formData.append("access_key", "30ae5017-b3dc-4cb7-b8aa-6212ec5416fd");
+  formData.append("access_key", import.meta.env.VITE_CONTACT_FORM_API_KEY);
 
   try {
     console.log('Form data:', Object.fromEntries(formData));
