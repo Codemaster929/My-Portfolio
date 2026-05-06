@@ -20,7 +20,12 @@ const Biosection = () => {
      
       src={ishovered?locpinColor:locationpin} alt="location" />Delhi-NCR</p>
       <div className='flex justify-between px-5 '>
-       <button className='flex gap-2 border-3 rounded-xl py-1 px-2 font-bold cursor-pointer  active:scale-95  hover:scale-105 hover:bg-white hover:text-black transition-transform' >
+       <button className='flex gap-2 border-3 rounded-xl py-1 px-2 font-bold cursor-pointer  active:scale-95  hover:scale-105 hover:bg-white hover:text-black transition-transform'  onClick={()=>{
+        const link = document.createElement("a");
+ link.href = "/SahajAsim-Resume.pdf";
+  link.download = "SahajAsim-Resume.pdf";
+  link.click();
+       }}>
         Resume <FileDown strokeWidth={1.9} />
        </button>
   <div className='flex gap-5 items-center cursor-pointer'>
